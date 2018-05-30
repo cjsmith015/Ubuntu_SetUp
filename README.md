@@ -1,2 +1,19 @@
-# Ubuntu_SetUp
-I have this tendency to play around with my Linux boot until it breaks, so to save Future Christie time and heartache I've created this easy-to-follow repo for when that inevitably happens again.
+# Ubuntu Setup
+SO! You broke your computer again. Figures. Now you need to do a fresh install and start over.
+Never fear! Just follow these instructions.
+
+# Removing Linux
+
+## Move Files
+
+## Delete Partition
+
+# Installing Linux
+
+# Setting Up Gnome
+
+# Installing Python
+
+# Installing Programs
+
+# Razer Blade Fixes
