@@ -57,6 +57,8 @@ sudo snap install slack --classic
 sudo apt-get install git
 ```
 
+Change default web browser to Chromium by going to Settings > Details > Default Applications
+
 ## Setting Up Git
 
 ```
@@ -75,11 +77,25 @@ xclip -sel clip < ~/.ssh/id_rsa.pub
 ```
 Then add the new SSH key [here](https://github.com/settings/keys).
 
-## Installing Python
+## Installing Python/DS-Related Programs
 
+Download latest Anaconda version [here](https://www.anaconda.com/download/#linux).
 
+```
+bash ~/Downloads/Anaconda[tab]
+```
 
-## Installing Programs
+Restart terminal.
+
+```
+conda install psycopg2
+conda install csvkit
+sudo apt-get install postgresql-10
+cd Downloads
+wget http://dbeaver.jkiss.org/files/dbeaver-ce_latest_amd64.deb
+sudo dpkg -i dbeaver-ce_latest_amd64.deb
+sudo apt-get -f install
+```
 
 ## Razer Blade Fixes
 
