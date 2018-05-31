@@ -122,6 +122,9 @@ Total re-installs thanks to the touchpad so far: 2
 
 Reboot.
 
+This APPEARS to work... so far. Reasonable mouse acceleration, natural scrolling, and disable touchpad while typing seem to be working fine.
+
 ## Other Tweaks
 
+```timedatectl set-local-rtc1 --adjust-system-clock```
 [Fix Windows/Linux Time Sync Issue](https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/)
