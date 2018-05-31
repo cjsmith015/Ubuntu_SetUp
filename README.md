@@ -112,6 +112,16 @@ sudo nano /etc/systemd/logind.conf
 
 Uncomment `#handleLidSwitch=suspend`
 
+### Switch to Synaptics
+
+Ahhh yes. The fabled touchpad weirdness. This is still on-going.
+
+Total re-installs thanks to the touchpad so far: 2
+
+```sudo apt install xserver-xorg-input-synaptics```
+
+Reboot.
+
 ## Other Tweaks
 
 [Fix Windows/Linux Time Sync Issue](https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/)
