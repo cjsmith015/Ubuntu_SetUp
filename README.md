@@ -38,6 +38,10 @@ Reboot the computer and choose 'Install Ubuntu'. Follow the instructions.
 ## Switch to GNOME
 
 From [here](https://linuxconfig.org/how-to-install-gnome-on-ubuntu-18-04-bionic-beaver-linux)
+```
+sudo apt install tasksel
+sudo tasksel install ubuntu-desktop
+```
 
 ## Installing Python
 
