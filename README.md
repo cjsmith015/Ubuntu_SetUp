@@ -39,11 +39,45 @@ Reboot the computer and choose 'Install Ubuntu'. Follow the instructions.
 
 From [here](https://linuxconfig.org/how-to-install-gnome-on-ubuntu-18-04-bionic-beaver-linux)
 ```
-sudo apt install tasksel
-sudo tasksel install ubuntu-desktop
+sudo apt install gnome-session
+```
+You might have to reboot. Select GNOME on Xorg on log-in.
+
+## Installing Programs
+
+```
+sudo apt install chromium-browser
+
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
+
+sudo snap install slack --classic
+
+sudo apt-get install git
 ```
 
+## Setting Up Git
+
+```
+git config --global user.name "Christiana Smith"
+git config --global user.email cj.smith015@gmail.com
+```
+
+Then generate a new SSH key, delete the old one on github, add the new one. Detailed instructions [here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+
+```
+ssh-keygen -t rsa -b 4096 -C "cj.smith015@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
+```
+Then add the new SSH key [here](https://github.com/settings/keys).
+
 ## Installing Python
+
+
 
 ## Installing Programs
 
