@@ -2,6 +2,9 @@
 SO! You broke your computer again. Figures. Now you need to do a fresh install and start over.
 Never fear! Just follow these instructions.
 
+Ubuntu Version: 18.04
+Computer: Razer Blade Late 2017
+
 # Removing Linux
 
 ## Create Ubuntu USB
@@ -98,6 +101,16 @@ sudo apt-get -f install
 ```
 
 ## Razer Blade Fixes
+
+### Suspend When Closed, Suspend Loop Fix
+
+```
+sudo nano /etc/default/grub
+GRUB_CMDLINE_LINUX_DEFAULT="button.lid_init_state=open"
+sudo nano /etc/systemd/logind.conf
+```
+
+Uncomment `#handleLidSwitch=suspend`
 
 ## Other Tweaks
 
