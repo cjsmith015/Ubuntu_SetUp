@@ -27,16 +27,24 @@ Right before wiping the Linux side, use the recovery USB to move your Linux file
 
 ## Delete Partition
 
+Install gparted while under 'Try Ubuntu' with `sudo apt-get install gparted` and then delete the Linux partition.
+
 # Installing Linux
 
-# Setting Up Gnome
+Reboot the computer and choose 'Install Ubuntu'. Follow the instructions. 
 
-# Installing Python
+# Setting Up Linux
 
-# Installing Programs
+## Switch to GNOME
 
-# Razer Blade Fixes
+From [here](https://linuxconfig.org/how-to-install-gnome-on-ubuntu-18-04-bionic-beaver-linux)
 
-# Other Tweaks
+## Installing Python
+
+## Installing Programs
+
+## Razer Blade Fixes
+
+## Other Tweaks
 
 [Fix Windows/Linux Time Sync Issue](https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/)
