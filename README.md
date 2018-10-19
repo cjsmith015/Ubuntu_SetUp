@@ -105,6 +105,10 @@ cd Downloads
 wget http://dbeaver.jkiss.org/files/dbeaver-ce_latest_amd64.deb
 sudo dpkg -i dbeaver-ce_latest_amd64.deb
 sudo apt-get -f install
+
+pip install msgpack
+sudo apt-get install build-essential
+pip install fuzzywuzzy[speedup]
 ```
 
 ## Razer Blade Fixes
