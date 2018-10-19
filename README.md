@@ -93,7 +93,14 @@ Restart terminal.
 ```
 conda install psycopg2
 conda install csvkit
-sudo apt-get install postgresql-10
+
+sudo apt-get install postgresql postgresql-contrib
+sudo -u postgres createuser --interactive
+christiana (or whatever my linux name is)
+y
+createdb christiana
+exit
+
 cd Downloads
 wget http://dbeaver.jkiss.org/files/dbeaver-ce_latest_amd64.deb
 sudo dpkg -i dbeaver-ce_latest_amd64.deb
